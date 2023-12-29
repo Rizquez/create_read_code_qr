@@ -25,8 +25,6 @@ En el fichero requirements.txt se encontran las diferentes librerias necesarias 
 
 > [!TIP]
 Dentro de los ficheros se encuentra una BBDD creada en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR.
-
-> [!TIP]
 Se recomienda crear un entorno de desarrollo para una mejor ejecucion.
 
 > [!IMPORTANT]
