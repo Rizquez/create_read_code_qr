@@ -21,10 +21,10 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 > [!NOTE]
-Dentro de los ficheros se encuentra una BBDD creada en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR.
+Dentro de los ficheros se encuentran dos BBDD creadas en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR, estan ubicadas dentro de src/database/.
 
 > [!TIP]
 Se recomienda crear un entorno virtual para un optimo desarrollo y ejecucion ejecucion.
 
 > [!IMPORTANT]
-Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de aplicaciones WEB y la creacion y lecturad de codigos QR. 
+Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de aplicaciones WEB y la creacion y lecturad de codigos QR.
