@@ -21,11 +21,10 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 > [!NOTE]
-En el fichero requirements.txt se encontran las diferentes librerias necesarias para la ejecucion del proyecto.
+Dentro de los ficheros se encuentra una BBDD creada en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR.
 
 > [!TIP]
-> Dentro de los ficheros se encuentra una BBDD creada en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR.
-> Se recomienda crear un entorno de desarrollo para una mejor ejecucion.
+Se recomienda crear un entorno de desarrollo para una mejor ejecucion.
 
 > [!IMPORTANT]
 Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de aplicaciones WEB y la creacion y lecturad de codigos QR. 
