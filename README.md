@@ -3,13 +3,13 @@ Este proyecto permite la creación y lectura de códigos QR asignados a usuarios
 
 ## Funcionalidad
 Generación de Códigos QR:
-1. Funcionalidad: Genera códigos QR y los asocia con usuarios específicos.
-2. Almacenamiento: Guarda los códigos QR y la información del usuario en una base de datos SQLite.
-3. Entrada de Datos: Acepta datos a través de archivos CSV o Excel. Los tokens pueden ser asignados a usuarios o generados aleatoriamente.
+1. Genera códigos QR y los asocia con usuarios específicos.
+2. Guarda los códigos QR y la información del usuario en una base de datos SQLite.
+3. Acepta datos a través de archivos CSV o Excel. Los tokens pueden ser asignados a usuarios o generados aleatoriamente.
 
 Lectura de Códigos QR:
-1. Funcionalidad: Utiliza una cámara web para leer códigos QR.
-2. Registro de Actividad: Almacena registros de lectura en otra base de datos SQLite, incluyendo detalles como fecha, hora y token validado.
+1. Utiliza una cámara web para leer códigos QR.
+2. Almacena registros de lectura en otra base de datos SQLite, incluyendo detalles como fecha, hora y token validado.
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
