@@ -2,7 +2,7 @@
 Este proyecto permite la creación y lectura de códigos QR asignados a usuarios, utilizando tecnologías web y bases de datos SQLite. Se divide en dos componentes principales.
 
 ## Funcionalidad
-Generación de Códigos QR:
+###Generación de Códigos QR:
 1. Genera códigos QR y los asocia con usuarios específicos.
 2. Guarda los códigos QR y la información del usuario en una base de datos SQLite.
 3. Acepta datos a través de archivos CSV o Excel. Los tokens pueden ser asignados a usuarios o generados aleatoriamente.
