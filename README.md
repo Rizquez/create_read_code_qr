@@ -17,7 +17,7 @@ Este proyecto está bajo una licencia MIT. Consulta el archivo LICENSE para más
 python -m virtualenv nombreEntorno
 
 ## Dependencias
-pip freeze > requirements.txt
+pip freeze > requirements.txt  
 pip install -r requirements.txt
 
 > [!NOTE]
