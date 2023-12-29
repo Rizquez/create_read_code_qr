@@ -1,6 +1,9 @@
 # Create and Read User Code QR
 Este proyecto permite la creación y lectura de códigos QR asignados a usuarios, utilizando tecnologías web y bases de datos SQLite. Se divide en dos componentes principales.
 
+> [!IMPORTANT]
+Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de aplicaciones WEB y la creacion y lecturad de codigos QR.
+
 ## Funcionalidad
 ### Generación de Códigos QR:
 1. Genera códigos QR y los asocia con usuarios específicos.
@@ -29,6 +32,3 @@ Se recomienda la creación de un entorno virtual para optimizar el desarrollo y 
 
 > [!NOTE]
 Dentro de los ficheros se encuentran dos BBDD creadas en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR, estan ubicadas dentro de src/database/.
-
-> [!IMPORTANT]
-Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de aplicaciones WEB y la creacion y lecturad de codigos QR.
