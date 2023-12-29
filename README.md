@@ -14,12 +14,6 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
 1. Utiliza una cámara web para leer códigos QR.
 2. Almacena registros de lectura en otra base de datos SQLite, incluyendo detalles como fecha, hora y token validado.
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
-
-## Licencia
-Este proyecto está bajo una licencia MIT. Consulta el archivo LICENSE para más detalles.
-
 ## Creacion del entorno de virtual:
 python -m virtualenv nombreEntorno
 
@@ -32,3 +26,9 @@ Se recomienda la creación de un entorno virtual para optimizar el desarrollo y 
 
 > [!NOTE]
 Dentro de los ficheros se encuentran dos BBDD creadas en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR, estan ubicadas dentro de src/database/.
+
+## Contribuciones
+Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
+
+## Licencia
+Este proyecto está bajo una licencia MIT. Consulta el archivo LICENSE para más detalles.
