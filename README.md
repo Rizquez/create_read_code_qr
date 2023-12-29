@@ -17,12 +17,12 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
 ## Creacion del entorno de virtual:
 python -m virtualenv nombreEntorno
 
+> [!TIP]
+Se recomienda la creación de un entorno virtual para optimizar el desarrollo y la ejecución del proyecto.
+
 ## Dependencias
 pip freeze > requirements.txt  
 pip install -r requirements.txt
-
-> [!TIP]
-Se recomienda la creación de un entorno virtual para optimizar el desarrollo y la ejecución del proyecto.
 
 > [!NOTE]
 Dentro de los ficheros se encuentran dos BBDD creadas en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR, estan ubicadas dentro de src/database/.
