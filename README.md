@@ -7,7 +7,7 @@ Este proyecto permite la creación y lectura de códigos QR asignados a usuarios
 2. Guarda los códigos QR y la información del usuario en una base de datos SQLite.
 3. Acepta datos a través de archivos CSV o Excel. Los tokens pueden ser asignados a usuarios o generados aleatoriamente.
 
-Lectura de Códigos QR:
+### Lectura de Códigos QR:
 1. Utiliza una cámara web para leer códigos QR.
 2. Almacena registros de lectura en otra base de datos SQLite, incluyendo detalles como fecha, hora y token validado.
 
