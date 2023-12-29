@@ -1,11 +1,13 @@
-# Create and Read Code QR
+# Create and Read User Code QR
 
 ## USO
 Este proyecto se compone de dos partes independientes explicadas a continuacion:
 
-1. Una parte se encarga de generar un conjunto de codigos QR, y se puede usar de manera independiete. Esto se realiza mediante la introduccion de datos con datos a los que estaran relacionados los codigos QR, la entrada sera mediante un fichero CSV o un fichero Excel. Un vez generado los codigos QR los almacena en una BBDD de SQLite con el Usuario al que ha sido asignado el Token que pertence al QR generado.
+1. Una parte se encarga de generar un conjunto de codigos QR, y se puede usar de manera independiete. Un vez generado los codigos QR los almacena en una BBDD de SQLite con el Usuario al que ha sido asignado el Token que pertence al QR generado.
 
 2. Otra parte que se encarga de mediante camara WEB, registrar la lectura del QR y almacenar el registro en otra BBDD de SQLite en donde se podra observar por fecha y hora cual ha sido el Token que ha validado a traves de la lectura del QR mediante la camara.
+
+La entrada de los datos para la creacion de los codigos QR se realiza mediante un fichero CSV o un fichero Excel. Es posible asginar un Token a cada Usuario y por consiguiente la generacion del QR sera directamente sobre el Token asignado, de lo contrario se generara un Token aleatorio que previamente sera asignado a cada usuario antes de la generacion del QR.
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
