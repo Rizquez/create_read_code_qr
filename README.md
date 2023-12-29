@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Dentro de los ficheros se encuentra una BBDD creada en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR.
 
 > [!TIP]
-Se recomienda crear un entorno de desarrollo para una mejor ejecucion.
+Se recomienda crear un entorno virtual para un optimo desarrollo y ejecucion ejecucion.
 
 > [!IMPORTANT]
 Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de aplicaciones WEB y la creacion y lecturad de codigos QR. 
