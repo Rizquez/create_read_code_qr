@@ -3,9 +3,9 @@
 ## USO
 Este proyecto se compone de dos partes independientes explicadas a continuacion:
 
-1. Una parte se encarga de generar un conjunto de codigos QR, y se puede usar de manera independiete. Un vez generado los codigos QR los almacena en una BBDD de SQLite con el Usuario al que ha sido asignado el Token que pertence al QR generado.
+1. Una parte se encarga de generar un conjunto de codigos QR, y se puede usar de manera independiete. Esto se realiza mediante la introduccion de datos con datos a los que estaran relacionados los codigos QR, la entrada sera mediante un fichero CSV o un fichero Excel. Un vez generado los codigos QR los almacena en una BBDD de SQLite con el Usuario al que ha sido asignado el Token que pertence al QR generado.
 
-2. Otra parte que se encarga de mediante camara, registrar la lectura del QR y almacenar el registro en otra BBDD de SQLite en donde se podra observar por fecha y hora cual ha sido el Token que ha validado a traves de la lectura del QR mediante la camara.
+2. Otra parte que se encarga de mediante camara WEB, registrar la lectura del QR y almacenar el registro en otra BBDD de SQLite en donde se podra observar por fecha y hora cual ha sido el Token que ha validado a traves de la lectura del QR mediante la camara.
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
