@@ -1,5 +1,5 @@
 # Create and Read User Code QR
-Este proyecto permite la creación y lectura de códigos QR asignados a usuarios, utilizando tecnologías web utilzando Flask como Framework de desarrollo y como SGBD a SQLite. Se divide en dos componentes principales.
+Este proyecto permite la creación y lectura de códigos QR asignados a usuarios, utilizando tecnologías web y Flask como Framework de desarrollo y como SGBD a SQLite. Se divide en dos componentes principales.
 
 > [!IMPORTANT]
 Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de aplicaciones WEB y la creacion y lecturad de codigos QR.
