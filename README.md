@@ -21,8 +21,14 @@ python -m virtualenv nombreEntorno
 Se recomienda la creación de un entorno virtual para optimizar el desarrollo y la ejecución del proyecto.
 
 ## Dependencias
-pip freeze > requirements.txt  
+Comando para instalar las dependencias necesarias sobre este proyecto.
+```
 pip install -r requirements.txt
+```
+Comando para crear o actualizar el archivo txt que almacena las dependencias del proyecto.
+```
+pip freeze > requirements.txt  
+```
 
 > [!NOTE]
 Dentro de los ficheros se encuentran dos BBDD creadas en SQLite donde se almacena la informacion que se lee y crea sobre los diferentes codigos QR, estan ubicadas dentro de src/database/.
