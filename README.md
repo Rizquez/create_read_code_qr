@@ -14,6 +14,28 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
 1. Utiliza una cámara web para leer códigos QR.
 2. Almacena registros de lectura en otra base de datos SQLite, incluyendo detalles como fecha, hora y token validado.
 
+3. ## Estructura del proyecto
+```
+├── LICENSE
+├── README.md
+├── main.py
+├── requirements.txt
+├── src
+│   ├── database
+│   │   ├── __init__.py
+│   │   ├── db.py
+│   │   ├── existing_qr.db
+│   │   └── registros.db
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── models.py
+│   └── utils
+│       ├── __init__.py
+│       └── functions.py
+└── templates
+    └── index.html
+```
+
 ## Creacion del entorno de virtual:
 Se necesitara tener instalada previamente la libreria 'virtualenv', en caso contrario se podra instalar ejecutando el siguiente comando:
 ```
